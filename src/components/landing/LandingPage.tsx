@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLanguage } from '../../context/LanguageContext';
-import { useAuth } from '../../context/AuthContext';
 import {
   Sparkles,
   ArrowRight,
@@ -28,7 +27,6 @@ interface LandingPageProps {
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted, onOpenSupport }) => {
   const { t } = useLanguage();
-  const { signInWithGoogle } = useAuth();
 
   const featureCards = [
     {

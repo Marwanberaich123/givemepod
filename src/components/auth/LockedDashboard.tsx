@@ -75,13 +75,13 @@ export const LockedDashboard: React.FC<LockedDashboardProps> = ({ onOpenSupport 
           </h2>
 
           <p className="text-sm text-slate-300 max-w-md mx-auto leading-relaxed">
-            {t('auth.lockedMessage', 'Your Google account is connected, but permanent access has not been activated yet.')}
+            {t('auth.lockedMessage', 'Enter your Secret Access Key to activate permanent lifetime access.')}
           </p>
 
           {user && (
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs text-slate-400">
               <span className="w-2 h-2 rounded-full bg-amber-400" />
-              <span>{t('auth.connectedAs', 'Connected as')}: <strong className="text-white">{user.email}</strong></span>
+              <span>{t('auth.connectedAs', 'Authenticated Key')}: <strong className="text-white font-mono">{user.active_code_masked || user.id.slice(0, 8)}</strong></span>
             </div>
           )}
         </div>
@@ -157,7 +157,7 @@ export const LockedDashboard: React.FC<LockedDashboardProps> = ({ onOpenSupport 
           {showBuyInfo && (
             <div className="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3 text-xs text-slate-300 animate-in fade-in duration-200">
               <p className="font-semibold text-white">
-                {t('auth.buySectionSubtitle', 'One-time investment. Lifetime command center access. Connected directly to your Google account.')}
+                {t('auth.buySectionSubtitle', 'One-time investment. Lifetime command center access via your Secret Key.')}
               </p>
               <ul className="space-y-1.5 text-slate-400">
                 <li className="flex items-center gap-2">
@@ -166,7 +166,7 @@ export const LockedDashboard: React.FC<LockedDashboardProps> = ({ onOpenSupport 
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                  <span>Permanent entitlement bound to your Google account</span>
+                  <span>Permanent entitlement bound to your Secret Key</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-400 shrink-0" />

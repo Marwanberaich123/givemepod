@@ -64,7 +64,7 @@ export const SettingsView: React.FC = () => {
           </h1>
         </div>
         <p className="text-xs sm:text-sm text-slate-400 mt-1">
-          Manage your permanent Google entitlement, connected e-commerce platforms, and interface language.
+          Manage your permanent Secret Key license, connected e-commerce platforms, and interface language.
         </p>
       </div>
 
@@ -93,8 +93,8 @@ export const SettingsView: React.FC = () => {
             </div>
 
             <div>
-              <span className="text-[11px] text-slate-400 block mb-0.5">Bound Google Account</span>
-              <span className="font-mono text-indigo-300">{user?.email}</span>
+              <span className="text-[11px] text-slate-400 block mb-0.5">Account Member ID</span>
+              <span className="font-mono text-indigo-300">{user?.name || user?.email}</span>
             </div>
           </div>
           <p className="text-[11px] text-slate-500">

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage, Language } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
 import {
+  KeyRound,
   Sparkles,
   Command,
   Search,
@@ -17,6 +18,7 @@ interface NavbarProps {
   onOpenCommand: () => void;
   onOpenSupport: () => void;
   onOpenMobileMenu?: () => void;
+  onOpenKeyLogin?: () => void;
   activeTab: string;
   setActiveTab: (tab: string) => void;
 }
@@ -25,6 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenCommand,
   onOpenSupport,
   onOpenMobileMenu,
+  onOpenKeyLogin,
   activeTab,
   setActiveTab
 }) => {
@@ -227,10 +230,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           ) : (
             <button
-              onClick={() => setActiveTab('login')}
-              className="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-sm transition-colors whitespace-nowrap"
+              onClick={() => onOpenKeyLogin ? onOpenKeyLogin() : setActiveTab('login')}
+              className="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-sm transition-colors whitespace-nowrap flex items-center gap-1.5"
             >
-              {t('nav.signInWithGoogle', 'Sign In with Google')}
+              <KeyRound className="w-3.5 h-3.5" />
+              <span>{t('nav.signInWithKey', 'Enter Secret Key')}</span>
             </button>
           )}
         </div>

@@ -24,7 +24,7 @@ interface AuthContextType {
   token: string | null;
   loading: boolean;
   isLocked: boolean;
-  signInWithGoogle: (email?: string, name?: string) => Promise<boolean>;
+  loginWithKey: (key: string, name?: string) => Promise<{ success: boolean; error?: string }>;
   activateAccessCode: (code: string) => Promise<{ success: boolean; error?: string }>;
   signOut: () => Promise<void>;
   updatePreferences: (prefs: { platform?: string; experience?: string; favorite_product?: string }) => Promise<void>;
@@ -39,21 +39,22 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [loading, setLoading] = useState<boolean>(true);
 
   const fetchSession = async (currentToken: string | null) => {
+    if (!currentToken) {
+      setUser(null);
+      setLoading(false);
+      return;
+    }
+
     try {
-      const headers: Record<string, string> = {};
-      if (currentToken) {
-        headers['Authorization'] = `Bearer ${currentToken}`;
-      }
-      const res = await fetch('/api/auth/me', { headers });
+      const res = await fetch('/api/auth/me', {
+        headers: { 'Authorization': `Bearer ${currentToken}` }
+      });
       if (res.ok) {
         const data = await res.json();
         setUser(data.user);
-        if (!currentToken && data.user) {
-          setToken(data.user.id);
-          localStorage.setItem('givemepod_token', data.user.id);
-        }
       } else {
-        // If not authenticated, keep user as null
+        localStorage.removeItem('givemepod_token');
+        setToken(null);
         setUser(null);
       }
     } catch (err) {
@@ -71,44 +72,44 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     await fetchSession(token);
   };
 
-  const signInWithGoogle = async (customEmail?: string, customName?: string): Promise<boolean> => {
+  // Login exclusively using the secret access key (A3F9K2L8Z1, etc.)
+  const loginWithKey = async (key: string, name?: string): Promise<{ success: boolean; error?: string }> => {
     try {
-      const email = customEmail || 'jeanteriitua@gmail.com';
-      const name = customName || (email.includes('jean') ? 'Jean Teriitua' : email.split('@')[0]);
-
-      const res = await fetch('/api/auth/google', {
+      const cleanKey = key.trim().toUpperCase().replace(/[\s-]/g, '');
+      const res = await fetch('/api/auth/login-with-key', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          email,
-          name,
-          avatar: `https://api.dicebear.com/7.x/bottts/svg?seed=${email}`
+          key: cleanKey,
+          name: name?.trim() || undefined
         })
       });
 
-      if (res.ok) {
-        const data = await res.json();
+      const data = await res.json();
+      if (res.ok && data.success && data.user) {
         setUser(data.user);
         setToken(data.token);
         localStorage.setItem('givemepod_token', data.token);
-        return true;
+        return { success: true };
       }
-      return false;
+
+      return {
+        success: false,
+        error: data.error || 'Invalid or unrecognized Secret Access Key.'
+      };
     } catch (err) {
-      console.error('Google Sign-In failed', err);
-      return false;
+      console.error('Key login failed', err);
+      return { success: false, error: 'Connection error during authentication.' };
     }
   };
 
   const activateAccessCode = async (code: string): Promise<{ success: boolean; error?: string }> => {
-    if (!user) return { success: false, error: 'Sign in with Google first.' };
-
     try {
       const res = await fetch('/api/auth/access-code', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token || user.id}`
+          'Authorization': `Bearer ${token || user?.id || ''}`
         },
         body: JSON.stringify({ code })
       });
@@ -158,7 +159,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setUser(null);
   };
 
-  // Locked experience check: User is connected via Google, but has not unlocked permanent access
   const isLocked = Boolean(user && !user.has_permanent_access && user.role !== 'ADMIN');
 
   return (
@@ -168,7 +168,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         token,
         loading,
         isLocked,
-        signInWithGoogle,
+        loginWithKey,
         activateAccessCode,
         signOut,
         updatePreferences,

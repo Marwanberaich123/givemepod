@@ -1,0 +1,1455 @@
+{
+  "users": [
+    {
+      "id": "admin-seed-001",
+      "google_id": "owner-key-admin",
+      "email": "owner@givemepod.com",
+      "name": "Owner Admin",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=GiveMePODAdmin",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "last_active": "2026-09-29T11:52:38.755Z",
+      "has_permanent_access": true,
+      "active_code_masked": "••••••••••••L8Z1",
+      "preferences": {
+        "platform": "Etsy",
+        "experience": "Advanced",
+        "favorite_product": "All Products"
+      }
+    },
+    {
+      "id": "8d8838f1-2222-4334-88af-c73c2c6017ec",
+      "google_id": "key-C5B9",
+      "email": "member-c5b9@givemepod.com",
+      "name": "Test User",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=M7X4V0C5B9",
+      "role": "USER",
+      "status": "ACTIVE",
+      "created_at": "2026-09-29T11:52:42.517Z",
+      "last_active": "2026-09-29T11:52:42.517Z",
+      "has_permanent_access": true,
+      "active_code_masked": "••••••••••••C5B9",
+      "preferences": {
+        "platform": "Etsy",
+        "experience": "Intermediate",
+        "favorite_product": "All Products"
+      }
+    }
+  ],
+  "accessCodes": [
+    {
+      "id": "code-1",
+      "code_hash": "6648f96d77053f7dadcead2aa1ac60c42cac78200855b073a142d674a10ac442",
+      "masked_code": "••••••••••••L8Z1",
+      "status": "ACTIVE",
+      "assigned_user_id": "admin-seed-001",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "activated_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Owner permanent primary key"
+    },
+    {
+      "id": "code-2",
+      "code_hash": "cb5201707541e2909a021b9b5daa036e80b9bad2b248c9e83f063433f5fbff60",
+      "masked_code": "••••••••••••C5B9",
+      "status": "ACTIVE",
+      "assigned_user_id": "8d8838f1-2222-4334-88af-c73c2c6017ec",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "activated_at": "2026-09-29T11:52:42.517Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #2",
+      "last_used_at": "2026-09-29T11:52:42.517Z"
+    },
+    {
+      "id": "code-3",
+      "code_hash": "7789c10513d7f222dedce3868d78386659559c34a3b8a27cabdf84f159a6d4ef",
+      "masked_code": "••••••••••••R3T5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #3"
+    },
+    {
+      "id": "code-4",
+      "code_hash": "890512c780cf9dcade313eaf5f63dd9b2df6876bac5095f1cf95ba66f6ea081d",
+      "masked_code": "••••••••••••O7P0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #4"
+    },
+    {
+      "id": "code-5",
+      "code_hash": "41fa449a3b2d0e70118cebfe10219b92a424538a51d92f9e6b786524b3268dda",
+      "masked_code": "••••••••••••F1G6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #5"
+    },
+    {
+      "id": "code-6",
+      "code_hash": "7daf1dbefbe8803019f0f81d153d8b52ffa59a09e38633253f11d92fcbf706ef",
+      "masked_code": "••••••••••••L0Z4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #6"
+    },
+    {
+      "id": "code-7",
+      "code_hash": "dcb3b68c2ef5860699372c5064d4dcd700610f97afc2e537f53c70c9faead104",
+      "masked_code": "••••••••••••B2N5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #7"
+    },
+    {
+      "id": "code-8",
+      "code_hash": "d62fd57d4b07f845684af208d4254c12951ad9d6f9027d0301443d4eb11d741c",
+      "masked_code": "••••••••••••E9R4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #8"
+    },
+    {
+      "id": "code-9",
+      "code_hash": "b57440dee681caf38d086c81d79f8f66dd98bbef282aec6c34b4d7943e0bd1b0",
+      "masked_code": "••••••••••••I5O7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #9"
+    },
+    {
+      "id": "code-10",
+      "code_hash": "c7ad58ee3bd8c8f2888b2ba3b415c9dc827576738d844c7d0c4f1c8caf38a342",
+      "masked_code": "••••••••••••D0F2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #10"
+    },
+    {
+      "id": "code-11",
+      "code_hash": "e48ed4eb124aad9631c0e4ec89da304598d1f9232ee63d7f92f128f9850da445",
+      "masked_code": "••••••••••••K4L7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #11"
+    },
+    {
+      "id": "code-12",
+      "code_hash": "c9bdb6deabbd42c329f1a9fd5e052697c78e4635b5e266a689b850e4ab1f134d",
+      "masked_code": "••••••••••••V3B6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #12"
+    },
+    {
+      "id": "code-13",
+      "code_hash": "f07b587ca451994a3fb7611929469ef71916fc2737323cb6f009fdd7e3754fe7",
+      "masked_code": "••••••••••••W5E7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #13"
+    },
+    {
+      "id": "code-14",
+      "code_hash": "cc214a0538f6cfaf2de1c21c3d2c2a50151ceff6f6ff15a597b3ed18746de5d4",
+      "masked_code": "••••••••••••U9I2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #14"
+    },
+    {
+      "id": "code-15",
+      "code_hash": "cd0aced142e6a8656ce54e8304915997b8cb52a732034b8eb1e215d7c93675b1",
+      "masked_code": "••••••••••••S4D8",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #15"
+    },
+    {
+      "id": "code-16",
+      "code_hash": "15fb24e3743075b6cf04522baa5afbc52f68ef3375b26ca63353365b6a8fc056",
+      "masked_code": "••••••••••••J3K5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #16"
+    },
+    {
+      "id": "code-17",
+      "code_hash": "d48095309e7f358831db60f5c329b8e3c85c3e481921776eea1d2273c8a05d43",
+      "masked_code": "••••••••••••C7V9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #17"
+    },
+    {
+      "id": "code-18",
+      "code_hash": "e455f9d12bb80478eb85a7f4efc672b3cc6bdae698be6d79374dbe21a0a80690",
+      "masked_code": "••••••••••••Q2W8",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #18"
+    },
+    {
+      "id": "code-19",
+      "code_hash": "b72c59286439126cd2c3b7f9224389926cc862deed2ea233f0e16bde97357c43",
+      "masked_code": "••••••••••••Y4U9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #19"
+    },
+    {
+      "id": "code-20",
+      "code_hash": "89f3729330e4a9065915e577ea5ad4b553fb728379ebced03702cfa70a3a7965",
+      "masked_code": "••••••••••••A2S8",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #20"
+    },
+    {
+      "id": "code-21",
+      "code_hash": "8dd2f79017c61bd72bdb5a3389b84f44ffceef2d182dffea4fea5655eb73a428",
+      "masked_code": "••••••••••••H0J6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #21"
+    },
+    {
+      "id": "code-22",
+      "code_hash": "52b3925833072b14a854e39ebe644a723937a619380c1b592711fc658e924cd0",
+      "masked_code": "••••••••••••X8C3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #22"
+    },
+    {
+      "id": "code-23",
+      "code_hash": "7bd6018ee3cdb6387538b7458522c2a2811738caec0a778fb11561feaf910401",
+      "masked_code": "••••••••••••M1Q9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #23"
+    },
+    {
+      "id": "code-24",
+      "code_hash": "0fcf33a2af69c7d9fe1cc3d7064b7ddfa0269d696d9768b2db443c6401dd0754",
+      "masked_code": "••••••••••••T8Y0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #24"
+    },
+    {
+      "id": "code-25",
+      "code_hash": "9138ed20ef877cfb7c35d9a2321bdebcf2354c03d2575ab724f3debd84c12f83",
+      "masked_code": "••••••••••••P4A9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #25"
+    },
+    {
+      "id": "code-26",
+      "code_hash": "dd64753427a6709fda542c3ab4a8ff3327add8839402ac1eb66954509575d12c",
+      "masked_code": "••••••••••••G8H2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #26"
+    },
+    {
+      "id": "code-27",
+      "code_hash": "bbbd75990cb596be32e8bdb959dbcc035522ea6203b04e4bb139d0099f699174",
+      "masked_code": "••••••••••••Z4X6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #27"
+    },
+    {
+      "id": "code-28",
+      "code_hash": "87ebf1a54129f29130072b16232e24e88290e4391a5ae0ff40fb2397c93d9905",
+      "masked_code": "••••••••••••N0M3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #28"
+    },
+    {
+      "id": "code-29",
+      "code_hash": "49c29482523acabaa7c1a18b96d2da6e335d20a0717c714586f5b2be5d2de8e0",
+      "masked_code": "••••••••••••R9T6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #29"
+    },
+    {
+      "id": "code-30",
+      "code_hash": "ebb5a67649eb37b083823768b7b4e9312f5260e7a04f85df100f86bd347a2935",
+      "masked_code": "••••••••••••O8P3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #30"
+    },
+    {
+      "id": "code-31",
+      "code_hash": "fbb669f9ddf8c18455b68e25c9b90507b1836a924f1b80cdb799cc3cca05686a",
+      "masked_code": "••••••••••••F4G7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #31"
+    },
+    {
+      "id": "code-32",
+      "code_hash": "39d640154fec2af544a8c0041ff5b866d47b11b98206a18b51f405ff2db20b0c",
+      "masked_code": "••••••••••••L5Z2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #32"
+    },
+    {
+      "id": "code-33",
+      "code_hash": "b3d750653fc0bf680569a58159ec984ae07e82a8640276d2854ecce2f08c71ca",
+      "masked_code": "••••••••••••B7N0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #33"
+    },
+    {
+      "id": "code-34",
+      "code_hash": "23200acdaf1ccda481c767d7df6f824d3633e21eed7273f6a632039018835c40",
+      "masked_code": "••••••••••••E3R6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #34"
+    },
+    {
+      "id": "code-35",
+      "code_hash": "d90fe927fb913f16f0c352d96e675c0c0f1c2f3231dd2347fd6d61565f0f9003",
+      "masked_code": "••••••••••••I0O7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #35"
+    },
+    {
+      "id": "code-36",
+      "code_hash": "09d40eee7dda6c9c55bcab7eeced67ba042f12b09e1c9a6c1f6839e775f799a1",
+      "masked_code": "••••••••••••D1F9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #36"
+    },
+    {
+      "id": "code-37",
+      "code_hash": "87991f040e32887d1190a8fa004abc2529ed1296b77610ff6b948118b4577919",
+      "masked_code": "••••••••••••K7L3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #37"
+    },
+    {
+      "id": "code-38",
+      "code_hash": "f77f7a51b3c85424a0163752916387191e9a6a343c388f02d3b33ee10b353152",
+      "masked_code": "••••••••••••V5B1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #38"
+    },
+    {
+      "id": "code-39",
+      "code_hash": "bcdb4b232ed9d49fc5bad61fa4c62b67dc8c316ec440def218fff34811e65777",
+      "masked_code": "••••••••••••W7E4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #39"
+    },
+    {
+      "id": "code-40",
+      "code_hash": "9f3470cae960f75a926f2101796f9e7784fb7720edfe6c99c5763f6e722c5d0b",
+      "masked_code": "••••••••••••U2I9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #40"
+    },
+    {
+      "id": "code-41",
+      "code_hash": "ce1e76f88bac8da11f720d6d98869f8709e4389a2f46b017b320fb10bdcf3ecc",
+      "masked_code": "••••••••••••S7D2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #41"
+    },
+    {
+      "id": "code-42",
+      "code_hash": "5f2e841229356280700962838482da780723b3799052603bb9d146933a86d1f6",
+      "masked_code": "••••••••••••J9K6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #42"
+    },
+    {
+      "id": "code-43",
+      "code_hash": "a0337a04b5848c0e9f2455b0df3a3f196d2da06996ab6af7b7137af71c17ac62",
+      "masked_code": "••••••••••••C3V8",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #43"
+    },
+    {
+      "id": "code-44",
+      "code_hash": "95f53765af37782f9ad02639aeb56c3fdd2776bec1d5c2dedd462d3cff886301",
+      "masked_code": "••••••••••••Q1W6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #44"
+    },
+    {
+      "id": "code-45",
+      "code_hash": "5f733c0916bdc1b218a9a4f53b693b78ca5bc0ece98133c2115e97fcd01ce8a8",
+      "masked_code": "••••••••••••Y8U3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #45"
+    },
+    {
+      "id": "code-46",
+      "code_hash": "58e28a1db7f725276c4d4b0997e67ece9a6db11a248e65231aadf27eb80522da",
+      "masked_code": "••••••••••••A4S0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #46"
+    },
+    {
+      "id": "code-47",
+      "code_hash": "9766093d25870ec53d66b7e6b172dc2c3a31ac8e1fca350aba006b37aa70c4b9",
+      "masked_code": "••••••••••••H3J7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #47"
+    },
+    {
+      "id": "code-48",
+      "code_hash": "d35a678c9acb88afe4e8ba319bed2083ed8896b029e97a7ded7c42ac2f5e6b6d",
+      "masked_code": "••••••••••••X9C4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #48"
+    },
+    {
+      "id": "code-49",
+      "code_hash": "cb38215aea8aecbfff4773398bd6a33d5c199aa89e4e17d8c2264452360edb8a",
+      "masked_code": "••••••••••••M8Q5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #49"
+    },
+    {
+      "id": "code-50",
+      "code_hash": "3d570db4f8fca2c3aca28a9329a62b4f3b64b638807061762f95fd3498767ab1",
+      "masked_code": "••••••••••••T6Y2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #50"
+    },
+    {
+      "id": "code-51",
+      "code_hash": "59c4a9a919d23f399b60f413a0199924a18b80cc883e331136e4c421f576ce0c",
+      "masked_code": "••••••••••••P7A3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #51"
+    },
+    {
+      "id": "code-52",
+      "code_hash": "ef1d0ae39ad62be7c32e95073cc4eb726b733adecbd20ebeb79d2f9870a4c01f",
+      "masked_code": "••••••••••••G6H2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #52"
+    },
+    {
+      "id": "code-53",
+      "code_hash": "2a27790dc2488bba6e7d236e7e5280b7e1463186fe4a32f8da12a83e2f392129",
+      "masked_code": "••••••••••••Z4X0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #53"
+    },
+    {
+      "id": "code-54",
+      "code_hash": "a10432074c8ed6b9105853dff05a720507f3a2f433220884ab99a340c104d92c",
+      "masked_code": "••••••••••••N6M2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #54"
+    },
+    {
+      "id": "code-55",
+      "code_hash": "4db7d96d9334e10b7d155d471ae5977de2b5fe6123d411bbd52ab9f4234bbbf6",
+      "masked_code": "••••••••••••R8T4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #55"
+    },
+    {
+      "id": "code-56",
+      "code_hash": "9ad28b3567f7481cac2d5dea08bf15ba4792861aa6462898dc29bbc08ebd0f63",
+      "masked_code": "••••••••••••O5P1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #56"
+    },
+    {
+      "id": "code-57",
+      "code_hash": "5e22ab9d1f689e9543af5390b8e4750314af8f31a820ae2c70e8ddf442b7bea7",
+      "masked_code": "••••••••••••F0G4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #57"
+    },
+    {
+      "id": "code-58",
+      "code_hash": "9db94437e905aa3a96c555d182fb445ce51ca30b0713ebc3981bf0d090958f84",
+      "masked_code": "••••••••••••L7Z3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #58"
+    },
+    {
+      "id": "code-59",
+      "code_hash": "c004745187fde0ef099ad84cdeec435141da146d69040c2d6965dbe0ce1d7859",
+      "masked_code": "••••••••••••B8N2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #59"
+    },
+    {
+      "id": "code-60",
+      "code_hash": "9d39b375927b30920757ed40f53fac8ffd2d76fcde3286b2b748b0e1e410360b",
+      "masked_code": "••••••••••••E7R0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #60"
+    },
+    {
+      "id": "code-61",
+      "code_hash": "74a6bb77f524f531d91d7bdc486411c60d38b57ec38c10e4143800b53fd5b472",
+      "masked_code": "••••••••••••I4O9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #61"
+    },
+    {
+      "id": "code-62",
+      "code_hash": "e36ecbed2b31931f404db205c5adf1a08c996f8c00239499cc3bdb8ba0b690c0",
+      "masked_code": "••••••••••••D1F7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #62"
+    },
+    {
+      "id": "code-63",
+      "code_hash": "7cc59898eca36a7dca301c53ed0f41e4bbef571820b73d2003f5335ee9d62a20",
+      "masked_code": "••••••••••••K9L5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #63"
+    },
+    {
+      "id": "code-64",
+      "code_hash": "ceacc5d0327144ca40008985eeb830037a1ced3468ca58ea8eabef5228e512d0",
+      "masked_code": "••••••••••••V0B6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #64"
+    },
+    {
+      "id": "code-65",
+      "code_hash": "1fca62fe7277d445dfb77076015d9cf23395d786b53982c21f92867eeb3bfdcb",
+      "masked_code": "••••••••••••W9E2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #65"
+    },
+    {
+      "id": "code-66",
+      "code_hash": "f244b240284bf8f847538b743f9c0423bcbded048128046d592733d08d50585f",
+      "masked_code": "••••••••••••U1I6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #66"
+    },
+    {
+      "id": "code-67",
+      "code_hash": "622b21c1c53e17d059da9e51761ab04dc6832644ac93d92d16dca425b2156883",
+      "masked_code": "••••••••••••S4D2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #67"
+    },
+    {
+      "id": "code-68",
+      "code_hash": "97f01605421056533c4fb2757ccecad964ab5877d43af4eca052cfc1a08f2b05",
+      "masked_code": "••••••••••••J3K8",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #68"
+    },
+    {
+      "id": "code-69",
+      "code_hash": "db002a1c6b5ee6b915b94e642f40bc48c3e8296227879c44bedc1dbb2fb09ef4",
+      "masked_code": "••••••••••••C9V2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #69"
+    },
+    {
+      "id": "code-70",
+      "code_hash": "6195bbc4d39e7091a0e75eb06e0d4cce4d06c9f18b266624a0da8f2f41de30e6",
+      "masked_code": "••••••••••••Q4W1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #70"
+    },
+    {
+      "id": "code-71",
+      "code_hash": "eaf83e9c8b6f4675a1dce42ce2ba0f2eb5ab7e2beb3a096f8747d414cf2f016e",
+      "masked_code": "••••••••••••Y6U2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #71"
+    },
+    {
+      "id": "code-72",
+      "code_hash": "fb3cecbf6d81e7706474d095122cd38c2d898b0e7d25a183cb23eed6fd5ec79d",
+      "masked_code": "••••••••••••A4S1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #72"
+    },
+    {
+      "id": "code-73",
+      "code_hash": "a67064d6a2479dcab9248896fef8c77c3b5da5e1f2a6b885995298baa250da24",
+      "masked_code": "••••••••••••H2J6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #73"
+    },
+    {
+      "id": "code-74",
+      "code_hash": "24fd2f9ffd8fd8558a57d1bbc531ec42782647202c4fbc926054c7937d4ba7fc",
+      "masked_code": "••••••••••••X8C3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #74"
+    },
+    {
+      "id": "code-75",
+      "code_hash": "0b9e53c20dca50654c843c959a13edeefe21b3a7ee70205e1701902dbb3f1e4d",
+      "masked_code": "••••••••••••M6Q2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #75"
+    },
+    {
+      "id": "code-76",
+      "code_hash": "66c4cf14584f236a71e672512481a99be7ced9594bf9def045c191b7d54589cc",
+      "masked_code": "••••••••••••T4Y0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #76"
+    },
+    {
+      "id": "code-77",
+      "code_hash": "f316ca5033e098f03338cdb8b0ebaae0d5cae87b83b259fc7e7e8216db60802b",
+      "masked_code": "••••••••••••P5A2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #77"
+    },
+    {
+      "id": "code-78",
+      "code_hash": "804178962517f02b9b94fc49e5fb10a560a208d823781b83286e4fe9a876510c",
+      "masked_code": "••••••••••••G0H4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #78"
+    },
+    {
+      "id": "code-79",
+      "code_hash": "52b1b470776831a406e8afbb81813287b18732c3865e93fed821d1210a653c46",
+      "masked_code": "••••••••••••Z6X1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #79"
+    },
+    {
+      "id": "code-80",
+      "code_hash": "4710b2efd047b53d8ba8824e822292a450269e536d7a885c2cf09e3b4e22c8ff",
+      "masked_code": "••••••••••••N7M0",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #80"
+    },
+    {
+      "id": "code-81",
+      "code_hash": "535bf37feac30ed47323b86ea74be4eb3f608b0cbfdb93ea4a53d9dfabe93ac4",
+      "masked_code": "••••••••••••R9T5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #81"
+    },
+    {
+      "id": "code-82",
+      "code_hash": "400354cb170b1116dad873a02de4f39e5d874ea41249e66ad5ec05af23a1fa67",
+      "masked_code": "••••••••••••O3P7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #82"
+    },
+    {
+      "id": "code-83",
+      "code_hash": "27f915db4debcb793143b413344710990c941d445939517c8f176e8b575330f3",
+      "masked_code": "••••••••••••F4G2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #83"
+    },
+    {
+      "id": "code-84",
+      "code_hash": "2353eb86cc91af440fc864f8183dcfb63eccdbc963cdb6dd89ec12a77ed94c49",
+      "masked_code": "••••••••••••L8Z5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #84"
+    },
+    {
+      "id": "code-85",
+      "code_hash": "f67b4d8dd3990758931bda32462b6c824f547d80237e6a23e6a7f90bf3b21f15",
+      "masked_code": "••••••••••••B9N4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #85"
+    },
+    {
+      "id": "code-86",
+      "code_hash": "edf9ddcb9376bbd5c4e339017b3a3cf899ade220ccc42851ad20aae86adf32a7",
+      "masked_code": "••••••••••••E0R5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #86"
+    },
+    {
+      "id": "code-87",
+      "code_hash": "4d258446bc3d8a9abcda7c1d99b47f728330aca7359020017b297f6da9bf4e94",
+      "masked_code": "••••••••••••I9O4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #87"
+    },
+    {
+      "id": "code-88",
+      "code_hash": "05a95b8559afa3ccb8571dc3feb91da2ed87e180142b96c33cffb128c6d0e01b",
+      "masked_code": "••••••••••••D3F7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #88"
+    },
+    {
+      "id": "code-89",
+      "code_hash": "051511d6755807fd942bc08a84416e8edb8a80485b2aed4ba2915ca2abbf6398",
+      "masked_code": "••••••••••••K9L4",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #89"
+    },
+    {
+      "id": "code-90",
+      "code_hash": "fe8233fa5031377baf253efc686fc8f88a5f41dde59465e5c0a37cbd03c53d54",
+      "masked_code": "••••••••••••V8B3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #90"
+    },
+    {
+      "id": "code-91",
+      "code_hash": "9fa51ddda5c9db8e945c3e4c5b3b065d1c62af98018745ce6efd63fabe79fedf",
+      "masked_code": "••••••••••••W6E2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #91"
+    },
+    {
+      "id": "code-92",
+      "code_hash": "d934ca30390d564a2b84ed2498747a34298db7e60b93cbe7eca951e6c27c6ad0",
+      "masked_code": "••••••••••••U0I5",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #92"
+    },
+    {
+      "id": "code-93",
+      "code_hash": "54dafdeb01e3e2632ccb93901c37750bb568ce3c43c0b39ba3c85f756833452f",
+      "masked_code": "••••••••••••S4D1",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #93"
+    },
+    {
+      "id": "code-94",
+      "code_hash": "50ecc20682551a307de665c7b87098ee6a799a3dd0c67d59ff9d4fcaec226719",
+      "masked_code": "••••••••••••J3K7",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #94"
+    },
+    {
+      "id": "code-95",
+      "code_hash": "fa615227be9a374a1852fa8dd1d88b9513b9e2b283e7d1a93e8aaa153b365a0a",
+      "masked_code": "••••••••••••C1V6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #95"
+    },
+    {
+      "id": "code-96",
+      "code_hash": "4b654f399f32a081de1efd920b480b8f7c0b1c45d8afce7f07d028fb8950a0d3",
+      "masked_code": "••••••••••••Q4W9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #96"
+    },
+    {
+      "id": "code-97",
+      "code_hash": "b487e19bf2bfcc234391835793963355b85e03955b32c51fe409910e8c60c629",
+      "masked_code": "••••••••••••Y6U2",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #97"
+    },
+    {
+      "id": "code-98",
+      "code_hash": "6bdcef3e040f33388746a8f7476ee07b915b565690539e9c1fa0d81759cb74f1",
+      "masked_code": "••••••••••••A5S3",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #98"
+    },
+    {
+      "id": "code-99",
+      "code_hash": "9c3f5015e30855bad30db7a96954bb914846235f123973b7d514dfc0b44e6077",
+      "masked_code": "••••••••••••H1J6",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #99"
+    },
+    {
+      "id": "code-100",
+      "code_hash": "7cd7f0fc000b3203e353cefbc1bfcdf9e7fab5366f978662d6684bd3d77f4d61",
+      "masked_code": "••••••••••••X5C9",
+      "status": "AVAILABLE",
+      "created_at": "2026-09-01T00:00:00.000Z",
+      "created_by": "system_init",
+      "notes": "Permanent access key #100"
+    }
+  ],
+  "entitlements": [
+    {
+      "id": "ent-code-1",
+      "user_id": "admin-seed-001",
+      "access_code_id": "code-1",
+      "granted_at": "2026-09-01T00:00:00.000Z",
+      "is_active": true
+    },
+    {
+      "id": "cf031ffa-d093-482b-a98e-7f1b2525f8fe",
+      "user_id": "8d8838f1-2222-4334-88af-c73c2c6017ec",
+      "access_code_id": "code-2",
+      "granted_at": "2026-09-29T11:52:42.517Z",
+      "is_active": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "sample-project-hoodie",
+      "user_id": "admin-seed-001",
+      "title": "Minimalist Heavyweight Streetwear Hoodie",
+      "product_type": "Hoodie",
+      "niche": "Urban Architecture & Minimalism",
+      "design_style": "Minimalist Typography & Geometric",
+      "target_audience": {
+        "gender": "Unisex",
+        "age_range": "25–34",
+        "occupation_interest": "Architects, designers, urban creatives"
+      },
+      "concepts_requested": 3,
+      "include_trends": true,
+      "status": "ready",
+      "opportunity_score": 88,
+      "opportunity_breakdown": {
+        "search_demand": 86,
+        "competition": 54,
+        "trend_momentum": 92,
+        "niche_specificity": 89,
+        "commercial_intent": 88,
+        "seasonality": 79,
+        "profit_potential": 91,
+        "ip_risk_score": 95,
+        "overall_score": 88
+      },
+      "risk_level": "LOW",
+      "is_sample": true,
+      "created_at": "2026-09-28T11:52:36.762Z",
+      "updated_at": "2026-09-29T11:52:36.762Z",
+      "concepts": [
+        {
+          "id": "concept-1",
+          "name": "Concrete & Brutalism Coordinates",
+          "target_customer": "Design professionals & modern urbanites",
+          "product_type": "Hoodie",
+          "design_angle": "Raw architectural typography with isometric elevation schematics",
+          "headline": "Form Follows Friction",
+          "visual_direction": "Monochrome slate ink on heavyweight charcoal cotton, clean grid layout",
+          "keyword_cluster": [
+            "brutalist hoodie",
+            "architect streetwear",
+            "minimalist aesthetic pullover",
+            "geometry garment"
+          ],
+          "why_interesting": "Strong overlap between luxury streetwear appeal and niche professional identity",
+          "risks": "No trademarked architectural names or registered corporate slogans used.",
+          "recommended_platforms": [
+            "Etsy",
+            "Shopify",
+            "Printify Premium"
+          ]
+        }
+      ],
+      "design": {
+        "title": "Concrete & Brutalism Coordinates",
+        "design_concept": "Understated modernist architectural layout with subtle hairline grids and clean sans-serif typography reading FORM FOLLOWS FRICTION.",
+        "prompt": "Commercial apparel print graphic, brutalist typography layout, minimalist architectural coordinate grid, crisp geometric lines, monochrome ivory ink on pure transparent background, vector precision, high contrast, 300 DPI, print-ready POD artwork",
+        "negative_prompt": "mockups, t-shirt outline, fabric wrinkles, human model, colorful gradients, 3D shadows, photo realistic background",
+        "print_specs": "4500 x 5400 px, 300 DPI, sRGB, Transparent PNG",
+        "color_palette": [
+          "#F5F5F0",
+          "#E2E8F0",
+          "#94A3B8"
+        ],
+        "transparent_bg_required": true,
+        "artwork_url": "/src/assets/images/mockup_studio_hoodie_1790680851584.jpg",
+        "mode": "generated"
+      },
+      "mockups": [
+        {
+          "id": "mockup-1",
+          "mockup_number": 1,
+          "category": "front",
+          "purpose": "Clean Studio Hero Presentation",
+          "scene": "Commercial dark slate studio with diffuse overhead key light",
+          "camera": "Eye-level 50mm, f/4 aperture",
+          "lighting": "Soft directional studio box from top-left",
+          "composition": "Centered product display with generous negative space",
+          "product_placement": "Heavyweight charcoal hoodie front center",
+          "prompt": "Studio commercial product photography of an oversized streetwear charcoal hoodie neatly laid on a dark slate surface, subtle diffused studio rim lighting, crisp fabric texture, luxury print on demand apparel showcase, high resolution",
+          "negative_prompt": "blurry, oversaturated, deformed garment, fake text",
+          "image_url": "/src/assets/images/mockup_studio_hoodie_1790680851584.jpg"
+        },
+        {
+          "id": "mockup-2",
+          "mockup_number": 2,
+          "category": "lifestyle",
+          "purpose": "Urban Workspace Context",
+          "scene": "Modern concrete architecture loft desk",
+          "camera": "35mm editorial lens at 45 degree angle",
+          "lighting": "Natural window daylight with soft ambient fill",
+          "composition": "Hoodie folded alongside sketch pad and ceramic cup",
+          "product_placement": "Foreground left",
+          "prompt": "Editorial lifestyle photo of a charcoal streetwear hoodie folded on a minimalist concrete architect workbench near blueprints, soft natural morning window light, high end design aesthetic",
+          "negative_prompt": "clutter, distorted objects, low resolution",
+          "image_url": "/src/assets/images/hero_pod_workspace_1790680840862.jpg"
+        }
+      ],
+      "risk": {
+        "overall_risk": "LOW",
+        "score": 95,
+        "detected_evidence": [
+          "Phrase \"Form Follows Friction\" is an original philosophical variation",
+          "No USPTO live registered word marks matched in Class 025 (Apparel)"
+        ],
+        "ai_inference": [
+          "Concept relies on generic architectural design language and open typographic geometry with zero intellectual property conflicts"
+        ],
+        "recommendations": [
+          "Safe for commercial listing on Etsy and Shopify",
+          "Maintain original wording and avoid referencing proprietary building trademarks"
+        ],
+        "disclaimer": "GiveMePOD provides automated screening and market analysis. It does not provide legal advice and cannot guarantee that a product is free from intellectual-property claims or marketplace policy violations.",
+        "checked_at": "2026-09-29T11:52:36.762Z"
+      },
+      "seo": {
+        "title": "Brutalist Architecture Hoodie, Minimalist Aesthetic Streetwear Pullover, Architect Gift, Heavyweight Cotton Graphic Sweatshirt",
+        "tags": [
+          "architect hoodie",
+          "brutalist design",
+          "minimalist apparel",
+          "architecture gift",
+          "urban streetwear",
+          "heavyweight hoodie",
+          "modernist clothing",
+          "unisex pullover",
+          "aesthetic clothes",
+          "graphic sweatshirt",
+          "dark academia tee",
+          "engineer gift",
+          "studio garment"
+        ],
+        "description": "Step into elevated minimalism with this premium heavyweight hoodie crafted for architects, designers, and lovers of structural form. Features precision screen-style typography and brutalist coordinate grid artwork.",
+        "short_description": "Architectural precision meets luxury streetwear comfort.",
+        "materials": "100% Ring-spun Combed Cotton Face, Heavyweight 350 GSM Fleece, Double-needle Stitching",
+        "personalization": "Custom back-neck coordinate stamping available upon request.",
+        "alt_text": [
+          "Charcoal brutalist architect hoodie flat lay on slate surface",
+          "Close-up of minimalist coordinate grid chest print on cotton fleece"
+        ],
+        "faq": [
+          {
+            "q": "What is the fit of this hoodie?",
+            "a": "Relaxed oversized modern streetwear fit. For a standard fit, order true to size; for fitted, size down one."
+          },
+          {
+            "q": "How is the graphic printed?",
+            "a": "Direct-to-Film (DTF) high-resolution print cured for maximum durability and soft hand-feel."
+          }
+        ],
+        "price_range": {
+          "min": 48,
+          "max": 68,
+          "suggested": 58
+        },
+        "keyword_groups": {
+          "primary": [
+            "architect hoodie",
+            "brutalist streetwear"
+          ],
+          "secondary": [
+            "minimalist pullover",
+            "heavyweight aesthetic sweatshirt"
+          ],
+          "long_tail": [
+            "gift for architecture student unisex hoodie",
+            "dark aesthetic brutalist clothing"
+          ],
+          "buyer_intent": [
+            "buy architect sweatshirt",
+            "best quality minimalist hoodie"
+          ],
+          "seasonal": [
+            "autumn winter cozy streetwear",
+            "holiday graduation architect gift"
+          ]
+        }
+      },
+      "profit": {
+        "currency": "USD",
+        "selling_price": 58,
+        "product_cost": 21.5,
+        "shipping_charged": 4.99,
+        "shipping_expense": 5.5,
+        "marketplace_fee_percent": 6.5,
+        "payment_processing_fixed": 0.25,
+        "payment_processing_percent": 3,
+        "ad_spend": 6,
+        "other_costs": 1,
+        "gross_revenue": 62.99,
+        "total_fees": 16.84,
+        "net_profit": 24.65,
+        "profit_margin": 39.13
+      },
+      "pinterest": [
+        {
+          "id": "pin-1",
+          "pin_title": "The Architect Streetwear Hoodie Everyone Is Obsessed With",
+          "pin_description": "Clean lines, heavyweight comfort, and brutalist typographic perfection. Discover the ultimate apparel piece for designers, engineers, and creators. #architect #streetwear #minimalistfashion",
+          "target_keywords": [
+            "minimalist hoodie aesthetic",
+            "architect gifts",
+            "streetwear outfits men women"
+          ],
+          "cta": "Tap to Shop the Collection",
+          "board": "Modern Minimalist Apparel & Wardrobe",
+          "image_concept": "Split layout showing studio product shot on top, aesthetic architect desk moodboard on bottom"
+        }
+      ],
+      "market_research": {
+        "source": "Etsy & Pinterest Trend Signals",
+        "timestamp": "2026-09-29T04:20:00Z",
+        "dataType": "Live Market Velocity Signal",
+        "summary": "High demand for high-GSM heavyweight blanks combined with intellectual/niche professional typography.",
+        "trendVelocity": "Rising (+28% MoM search interest)",
+        "searchVolumeSignal": "High commercial intent (86/100)",
+        "commonPatterns": [
+          "Oversized fits",
+          "Monochrome palettes",
+          "Quotes from design manifestos"
+        ],
+        "marketGaps": [
+          "Most listings use cheap thin blanks; high-end premium heavy fabrics with architectural precision are underserved."
+        ]
+      }
+    },
+    {
+      "id": "sample-project-mug",
+      "user_id": "admin-seed-001",
+      "title": "Minimalist Botanical Ceramic Mug",
+      "product_type": "Mug",
+      "niche": "Plant Enthusiasts & Coffee Lovers",
+      "design_style": "Japandi Fine Line Art",
+      "target_audience": {
+        "gender": "Women",
+        "age_range": "25–44",
+        "occupation_interest": "Plant moms, interior decorators, quiet morning ritualists"
+      },
+      "concepts_requested": 2,
+      "include_trends": true,
+      "status": "ready",
+      "opportunity_score": 84,
+      "opportunity_breakdown": {
+        "search_demand": 81,
+        "competition": 65,
+        "trend_momentum": 84,
+        "niche_specificity": 90,
+        "commercial_intent": 83,
+        "seasonality": 85,
+        "profit_potential": 78,
+        "ip_risk_score": 98,
+        "overall_score": 84
+      },
+      "risk_level": "LOW",
+      "is_sample": true,
+      "created_at": "2026-09-27T11:52:36.762Z",
+      "updated_at": "2026-09-29T11:52:36.762Z",
+      "concepts": [
+        {
+          "id": "concept-2",
+          "name": "Monstera Delicate Venation",
+          "target_customer": "Indoor gardening community and aesthetic home coffee enthusiasts",
+          "product_type": "Mug",
+          "design_angle": "Botanical line study rendered with continuous Japanese ink stroke aesthetic",
+          "headline": "Stillness in Bloom",
+          "visual_direction": "Warm earthy charcoal line illustration wrapped seamlessly on matte black stoneware",
+          "keyword_cluster": [
+            "plant mom mug",
+            "botanical ceramic coffee cup",
+            "japandi home gift",
+            "monstera artwork"
+          ],
+          "why_interesting": "Mugs have high gifting volume and repeat purchase frequency in plant collector communities",
+          "risks": "Botanical flora is public domain and zero trademark risk.",
+          "recommended_platforms": [
+            "Etsy",
+            "Shopify",
+            "Printful"
+          ]
+        }
+      ],
+      "design": {
+        "title": "Monstera Delicate Venation",
+        "design_concept": "Intricate botanical line artwork of a monstera leaf with continuous ink pen texture.",
+        "prompt": "Single continuous line art drawing of a delicate tropical monstera leaf, Japandi aesthetic, elegant ink wash nuance, warm cream outlines on pure transparent background, crisp vector sharpness, commercial POD print asset",
+        "negative_prompt": "solid background, color fills, messy noise, photo realism, mug silhouette",
+        "print_specs": "2475 x 1155 px, 300 DPI, sRGB, Transparent PNG",
+        "color_palette": [
+          "#FAF5EF",
+          "#D4AF37",
+          "#2C3E50"
+        ],
+        "transparent_bg_required": true,
+        "artwork_url": "/src/assets/images/mockup_ceramic_mug_1790680864069.jpg",
+        "mode": "generated"
+      },
+      "mockups": [
+        {
+          "id": "mockup-m1",
+          "mockup_number": 1,
+          "category": "front",
+          "purpose": "Clean Hero Photo for Etsy Search",
+          "scene": "Dark polished concrete with morning sunlight",
+          "camera": "85mm macro lens",
+          "lighting": "Warm side rim light highlighting matte texture",
+          "composition": "Center right 3/4 angle showing handle and graphic wrap",
+          "product_placement": "Center table focus",
+          "prompt": "Commercial studio photography of a matte black ceramic coffee mug on a polished dark concrete slab, soft side morning lighting, shallow depth of field, minimalist elegant print on demand product mockup, 8k quality",
+          "negative_prompt": "blurry, fake reflections, distorted rim",
+          "image_url": "/src/assets/images/mockup_ceramic_mug_1790680864069.jpg"
+        }
+      ],
+      "risk": {
+        "overall_risk": "LOW",
+        "score": 98,
+        "detected_evidence": [
+          "Natural botanical subject matter",
+          "No brand or trademarked terminology"
+        ],
+        "ai_inference": [
+          "Zero IP exposure; completely original botanical drawing"
+        ],
+        "recommendations": [
+          "Approved for immediate listing"
+        ],
+        "disclaimer": "GiveMePOD provides automated screening and market analysis. It does not provide legal advice and cannot guarantee that a product is free from intellectual-property claims or marketplace policy violations.",
+        "checked_at": "2026-09-29T11:52:36.762Z"
+      },
+      "seo": {
+        "title": "Monstera Leaf Ceramic Coffee Mug, Minimalist Botanical Plant Lover Cup, Japandi Kitchen Decor, Plant Mom Morning Coffee Gift 15oz",
+        "tags": [
+          "plant lover mug",
+          "botanical cup",
+          "monstera coffee mug",
+          "plant mom gift",
+          "japandi ceramic",
+          "minimalist mug",
+          "aesthetic coffee cup",
+          "houseplant gifts",
+          "large 15oz mug",
+          "gardener present",
+          "tea mug handmade",
+          "nature lover gift",
+          "neutral home decor"
+        ],
+        "description": "Begin your morning ritual surrounded by organic beauty. This 15oz matte ceramic mug features delicate botanical monstera line art, designed for indoor jungle lovers and quiet coffee reflections.",
+        "short_description": "An organic botanical study for peaceful morning coffee.",
+        "materials": "Lead and BPA-free Ceramic, Microwave and Dishwasher Safe",
+        "personalization": "Optional recipient name etched along the opposite handle side.",
+        "alt_text": [
+          "Matte black ceramic coffee mug with delicate monstera leaf artwork on concrete table"
+        ],
+        "faq": [
+          {
+            "q": "Is this dishwasher safe?",
+            "a": "Yes, durable top-rack dishwasher and microwave safe."
+          }
+        ],
+        "price_range": {
+          "min": 18,
+          "max": 28,
+          "suggested": 24
+        },
+        "keyword_groups": {
+          "primary": [
+            "plant mom mug",
+            "botanical coffee cup"
+          ],
+          "secondary": [
+            "monstera ceramic mug",
+            "japandi home gift"
+          ],
+          "long_tail": [
+            "best ceramic gift for houseplant lovers",
+            "minimalist aesthetic plant coffee mug"
+          ],
+          "buyer_intent": [
+            "buy botanical mug",
+            "order plant lover gift cup"
+          ],
+          "seasonal": [
+            "spring gardener gift",
+            "mothers day plant mug"
+          ]
+        }
+      },
+      "profit": {
+        "currency": "USD",
+        "selling_price": 24,
+        "product_cost": 6.8,
+        "shipping_charged": 6.5,
+        "shipping_expense": 6.2,
+        "marketplace_fee_percent": 6.5,
+        "payment_processing_fixed": 0.25,
+        "payment_processing_percent": 3,
+        "ad_spend": 3,
+        "other_costs": 0.5,
+        "gross_revenue": 30.5,
+        "total_fees": 12.65,
+        "net_profit": 11.05,
+        "profit_margin": 36.23
+      },
+      "pinterest": [
+        {
+          "id": "pin-2",
+          "pin_title": "The Perfect Morning Coffee Mug for Plant Lovers",
+          "pin_description": "Upgrade your quiet morning ritual with this minimalist botanical monstera ceramic mug. Dishwasher safe, high fire ceramic. #plantmom #morningcoffee #aestheticmug #japandi",
+          "target_keywords": [
+            "plant mom aesthetic",
+            "ceramic coffee mugs",
+            "botanical gifts"
+          ],
+          "cta": "Shop the Botanical Mug",
+          "board": "Cozy Morning Coffee Rituals",
+          "image_concept": "Close-up of steaming morning brew in cozy sunlit plant room"
+        }
+      ],
+      "market_research": {
+        "source": "Pinterest Trends & Google Search Signals",
+        "timestamp": "2026-09-29T04:20:00Z",
+        "dataType": "Live Signal",
+        "summary": "Plant-themed gift mugs consistently maintain high organic search demand year-round.",
+        "trendVelocity": "Stable High",
+        "searchVolumeSignal": "81/100",
+        "commonPatterns": [
+          "Cartoon plants with quotes like \"Crazy Plant Lady\""
+        ],
+        "marketGaps": [
+          "Mature, sophisticated Japandi line art appeals to higher-income buyers who avoid cliché cartoon text."
+        ]
+      }
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "df711c90-cf5e-48e2-a38c-89bacab68c7f",
+      "user_id": "anonymous",
+      "user_email": "unknown",
+      "action": "KEY_LOGIN_FAILED",
+      "details": "Invalid key attempt: ••••••••••••Y999",
+      "timestamp": "2026-09-29T11:52:46.661Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "8a77526d-3622-4e56-aa59-60581b4d8960",
+      "user_id": "8d8838f1-2222-4334-88af-c73c2c6017ec",
+      "user_email": "member-c5b9@givemepod.com",
+      "action": "KEY_ACTIVATE_AND_LOGIN",
+      "details": "Created and activated user via key ••••••••••••C5B9",
+      "timestamp": "2026-09-29T11:52:42.518Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "f4c844e4-5d9a-4c66-9ca5-eaf23521429e",
+      "user_id": "admin-seed-001",
+      "user_email": "owner@givemepod.com",
+      "action": "KEY_LOGIN_SUCCESS",
+      "details": "Logged in with existing key ••••••••••••L8Z1",
+      "timestamp": "2026-09-29T11:52:38.756Z",
+      "ip": "127.0.0.1"
+    }
+  ],
+  "systemConfig": {
+    "emergency_lock": false,
+    "maintenance_mode": false,
+    "maintenance_message": "GiveMePOD is temporarily undergoing scheduled maintenance.",
+    "feature_flags": {
+      "trend_hunter": true,
+      "design_generation": true,
+      "mockup_generation": true,
+      "pinterest": true,
+      "etsy": true,
+      "competitor_research": true,
+      "ai_advisor": true,
+      "profit_calculator": true,
+      "seasonal_planner": true
+    },
+    "integrations": {
+      "pinterest": {
+        "connected": false
+      },
+      "etsy": {
+        "connected": false
+      },
+      "payment": {
+        "configured": false
+      }
+    }
+  }
+}

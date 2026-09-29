@@ -21,10 +21,11 @@ import { AdminDashboard } from './components/admin/AdminDashboard';
 import { SettingsView } from './components/settings/SettingsView';
 import { SupportModal } from './components/support/SupportModal';
 import { CommandPalette } from './components/layout/CommandPalette';
-import { MessageCircle, Sparkles, X } from 'lucide-react';
+import { KeyLoginModal } from './components/auth/KeyLoginModal';
+import { MessageCircle, Sparkles } from 'lucide-react';
 
 const MainAppContent: React.FC = () => {
-  const { user, isLocked, loading, signInWithGoogle } = useAuth();
+  const { user, isLocked, loading } = useAuth();
   const { t } = useLanguage();
 
   const [activeTab, setActiveTab] = useState<string>('dashboard');
@@ -33,8 +34,7 @@ const MainAppContent: React.FC = () => {
   const [supportOpen, setSupportOpen] = useState(false);
   const [commandOpen, setCommandOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [googleSignInOpen, setGoogleSignInOpen] = useState(false);
-  const [googleEmailInput, setGoogleEmailInput] = useState('jeanteriitua@gmail.com');
+  const [keyLoginOpen, setKeyLoginOpen] = useState(false);
 
   const [projects, setProjects] = useState<any[]>([]);
 
@@ -89,76 +89,28 @@ const MainAppContent: React.FC = () => {
     );
   }
 
-  // 1. Unauthenticated: Show Landing Page
+  // 1. Unauthenticated: Show Landing Page with Key Login Trigger
   if (!user) {
     return (
       <div className="min-h-screen bg-[#0b0f17] text-slate-100 flex flex-col">
         <Navbar
-          onOpenCommand={() => setGoogleSignInOpen(true)}
+          onOpenCommand={() => setKeyLoginOpen(true)}
           onOpenSupport={() => setSupportOpen(true)}
+          onOpenKeyLogin={() => setKeyLoginOpen(true)}
           activeTab={activeTab}
-          setActiveTab={() => setGoogleSignInOpen(true)}
+          setActiveTab={() => setKeyLoginOpen(true)}
         />
         <LandingPage
-          onGetStarted={() => setGoogleSignInOpen(true)}
+          onGetStarted={() => setKeyLoginOpen(true)}
           onOpenSupport={() => setSupportOpen(true)}
         />
 
-        {/* Google Sign In Modal */}
-        {googleSignInOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
-            <div className="relative w-full max-w-md bg-[#131926] border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6">
-              <button
-                onClick={() => setGoogleSignInOpen(false)}
-                className="absolute top-4 right-4 p-2 text-slate-400 hover:text-white"
-              >
-                <X className="w-5 h-5" />
-              </button>
-
-              <div className="text-center space-y-2">
-                <div className="w-12 h-12 rounded-2xl bg-indigo-600/10 border border-indigo-500/20 text-indigo-400 mx-auto flex items-center justify-center">
-                  <Sparkles className="w-6 h-6" />
-                </div>
-                <h3 className="text-lg font-bold text-white">Sign In with Google</h3>
-                <p className="text-xs text-slate-400">
-                  Connect your Google account to access GiveMePOD.
-                </p>
-              </div>
-
-              <div className="space-y-3">
-                <div>
-                  <label className="block text-xs text-slate-400 mb-1">Google Email Address</label>
-                  <input
-                    type="email"
-                    value={googleEmailInput}
-                    onChange={e => setGoogleEmailInput(e.target.value)}
-                    placeholder="you@gmail.com"
-                    className="w-full h-11 px-3 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-indigo-500"
-                  />
-                  <p className="text-[11px] text-slate-500 mt-1">
-                    Owner pre-activated email: <code className="text-indigo-300">jeanteriitua@gmail.com</code>
-                  </p>
-                </div>
-
-                <button
-                  onClick={async () => {
-                    const ok = await signInWithGoogle(googleEmailInput);
-                    if (ok) setGoogleSignInOpen(false);
-                  }}
-                  className="w-full py-3 rounded-xl bg-white hover:bg-slate-100 text-slate-900 font-semibold text-xs shadow-md transition-colors flex items-center justify-center gap-2"
-                >
-                  <svg className="w-4 h-4" viewBox="0 0 24 24">
-                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-                  </svg>
-                  <span>Continue with Google</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
+        {/* Secret Key Login Modal */}
+        <KeyLoginModal
+          isOpen={keyLoginOpen}
+          onClose={() => setKeyLoginOpen(false)}
+          onOpenSupport={() => setSupportOpen(true)}
+        />
 
         <SupportModal isOpen={supportOpen} onClose={() => setSupportOpen(false)} />
       </div>
