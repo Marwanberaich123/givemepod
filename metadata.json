@@ -1,0 +1,6 @@
+{
+  "name": "GiveMePOD",
+  "description": "GiveMePOD is an AI-powered POD command center that helps you discover product opportunities, create designs, analyze market demand, check intellectual-property risk, generate mockups, optimize listings, and prepare products for multiple selling platforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

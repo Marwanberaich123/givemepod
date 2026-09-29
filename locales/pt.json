@@ -1,0 +1,330 @@
+{
+  "app": {
+    "name": "GiveMePOD",
+    "tagline": "Pesquise. Crie. Valide. Gere Mockups. Venda.",
+    "shortDescription": "O GiveMePOD é um centro de comando POD com IA que ajuda você a descobrir oportunidades de produtos, criar designs, analisar a demanda do mercado, verificar riscos de propriedade intelectual, gerar mockups e otimizar anúncios para diversas plataformas de vendas."
+  },
+  "nav": {
+    "dashboard": "Painel de Controle",
+    "trendHunter": "Caçador de Tendências",
+    "ideaFinder": "Localizador de Ideias",
+    "designStudio": "Estúdio de Design",
+    "mockupFactory": "Fábrica de Mockups",
+    "riskScanner": "Scanner de Risco",
+    "marketAnalyzer": "Analisador de Mercado",
+    "competitorResearch": "Pesquisa de Concorrência",
+    "etsyListing": "Anúncio Etsy",
+    "pinterestFactory": "Fábrica Pinterest",
+    "profitCalculator": "Calculadora de Lucro",
+    "seasonalPlanner": "Planejador Sazonal",
+    "aiAdvisor": "Consultor IA POD",
+    "myProducts": "Meus Produtos",
+    "analytics": "Métricas",
+    "settings": "Configurações",
+    "admin": "Painel de Administração",
+    "getStarted": "Começar Agora",
+    "howItWorks": "Como Funciona",
+    "signInWithGoogle": "Entrar com Google",
+    "signOut": "Sair",
+    "needHelp": "Precisa de Ajuda?",
+    "searchPlaceholder": "Pesquisar projetos, nichos, palavras-chave... (/)",
+    "commandPalette": "Comandos (⌘K)"
+  },
+  "landing": {
+    "heroTitle": "Transforme ideias POD em produtos prontos para o mercado.",
+    "heroSubtitle": "Pesquise tendências, descubra nichos, analise riscos, crie artes, gere 11 mockups e otimize anúncios para suas vendas — tudo em um único espaço de trabalho.",
+    "ctaBuild": "Crie seu Próximo Produto POD",
+    "ctaExplore": "Explorar Centro de Comando",
+    "stats": {
+      "workflows": "Fluxo Comercial em 11 Etapas",
+      "mockups": "11 Mockups por Produto",
+      "risk": "Varredura Automática de PI",
+      "languages": "4 Idiomas Globais"
+    },
+    "featuresTitle": "O Centro de Comando POD Completo",
+    "featuresSubtitle": "Elimine 8 assinaturas separadas. Vá da pesquisa inicial a 11 mockups comerciais em poucos minutos.",
+    "sections": {
+      "trendResearch": {
+        "title": "Pesquisa de Tendências",
+        "desc": "Rastreamento de velocidade no Etsy, Pinterest e sinais de busca para identificar demanda autêntica."
+      },
+      "nicheDiscovery": {
+        "title": "Descoberta de Nichos",
+        "desc": "Aprofunde categorias amplas em micronichos lucrativos e encontre lacunas de público inexploradas."
+      },
+      "aiDesignStudio": {
+        "title": "Estúdio de Design com IA",
+        "desc": "Gere artes prontas para impressão comercial em alta resolução ou prompts avançados para estamparia."
+      },
+      "riskScanner": {
+        "title": "Scanner de Risco de PI",
+        "desc": "Varredura automática contra marcas registradas, direitos autorais, nomes de celebridades e termos proibidos."
+      },
+      "mockupFactory": {
+        "title": "Fábrica de Mockups (11 imagens)",
+        "desc": "Crie 11 mockups consistentes: 1 foto principal Hero para o Etsy + 10 fotos em estúdio e lifestyle."
+      },
+      "etsyListing": {
+        "title": "Gerador de Anúncios Etsy",
+        "desc": "Títulos atraentes para SEO, 13 tags relevantes, descrições detalhadas, materiais e FAQ de compradores."
+      },
+      "pinterestFactory": {
+        "title": "Fábrica de Conteúdo Pinterest",
+        "desc": "5 ideias de Pins pensadas para tráfego orgânico com títulos, ganchos e palavras-chave."
+      },
+      "profitCalculator": {
+        "title": "Calculadora de Lucro",
+        "desc": "Cálculo transparente de margem considerando custo de fabricação, frete, taxas de vendas e anúncios."
+      },
+      "marketAnalyzer": {
+        "title": "Analisador de Oportunidades",
+        "desc": "Pontuação transparente de 0 a 100 calculada com base na demanda, concorrência, sazonalidade e risco."
+      }
+    }
+  },
+  "auth": {
+    "lockedTitle": "O GiveMePOD está bloqueado",
+    "lockedMessage": "Sua conta Google está conectada, mas o acesso permanente ainda não foi ativado.",
+    "enterAccessCode": "Digitar Código de Acesso",
+    "accessCodePlaceholder": "XXXX-XXXX-XXXX-XXXX",
+    "activateBtn": "Ativar Acesso Permanente",
+    "buyAccessBtn": "Comprar Acesso Permanente",
+    "contactSupportBtn": "Falar com Suporte",
+    "haveCode": "Possui um código fornecido pelo administrador?",
+    "permanentBadge": "Licença Vitalícia",
+    "codeActivatedSuccess": "Acesso permanente desbloqueado com sucesso! Bem-vindo ao GiveMePOD.",
+    "codeInvalid": "Código de acesso inválido ou revogado. Verifique e tente novamente.",
+    "codeAlreadyUsed": "Este código de acesso já foi ativado por outra conta Google.",
+    "rateLimited": "Muitas tentativas incorretas. Aguarde 15 minutos ou contate o suporte.",
+    "buySectionTitle": "Obtenha Acesso Permanente ao GiveMePOD",
+    "buySectionSubtitle": "Investimento único. Acesso vitalício ao centro de comando vinculado à sua conta Google.",
+    "buyPoints": [
+      "Pagamento único — sem mensalidades ou taxas recorrentes",
+      "Direito de acesso permanente vinculado à sua conta Google",
+      "Acesso completo ao Caçador de Tendências, Fábrica de Mockups (11 ângulos) e Scanner de Riscos",
+      "Suporte prioritário via WhatsApp e Telegram"
+    ],
+    "buyNow": "Comprar Acesso — $99 Único",
+    "paymentNotConfigured": "Integração de pagamento ainda não configurada. Contate o administrador.",
+    "connectedAs": "Conectado como",
+    "statusActive": "Acesso Ativo",
+    "statusLocked": "Conta Bloqueada"
+  },
+  "wizard": {
+    "title": "Criar um Produto POD",
+    "subtitle": "Vá do zero a um pacote completo e validado, pronto para listar no Etsy, Shopify e Amazon.",
+    "step1Title": "Qual produto você deseja criar?",
+    "step2Title": "Quantos conceitos de produto você deseja?",
+    "step3Title": "Qual estilo de design você prefere?",
+    "step4Title": "Para quem é este produto? (Público-alvo)",
+    "step5Title": "O GiveMePOD deve pesquisar tendências de mercado?",
+    "productTypes": {
+      "tshirt": "Camiseta (T-Shirt)",
+      "hoodie": "Moletom com Capuz (Hoodie)",
+      "mug": "Caneca de Cerâmica",
+      "notebook": "Caderno / Diário",
+      "totebag": "Bolsa de Lona (Tote Bag)",
+      "poster": "Pôster Fosco",
+      "phonecase": "Capa de Celular",
+      "sticker": "Adesivo Vinílico",
+      "sweatshirt": "Moletom Gola Careca",
+      "cap": "Boné Bordado",
+      "all": "Todos os Produtos"
+    },
+    "customStyle": "Estilo Personalizado",
+    "customStylePlaceholder": "ex: Linhas botânicas minimalistas estilo Japandi com tons terrosos...",
+    "audienceGender": {
+      "women": "Mulheres",
+      "men": "Homens",
+      "unisex": "Unissex"
+    },
+    "audienceAge": "Faixa Etária",
+    "audienceOccupation": "Nicho / Profissão / Interesse",
+    "audienceOccupationPlaceholder": "ex: Amantes de cães, desenvolvedores, enfermeiras, leitores...",
+    "trendToggle": "Ativar Pesquisa de Tendências de Mercado",
+    "trendToggleDesc": "Consulta fontes de dados de mercado para obter sinais reais de demanda e volume.",
+    "btnNext": "Próximo Passo",
+    "btnBack": "Voltar",
+    "btnBuild": "CRIAR MEU PRODUTO POD",
+    "btnResearchOnly": "Apenas Pesquisa",
+    "pipelineRunning": "Executando linha de produção POD...",
+    "stepsProgress": {
+      "research": "Pesquisando demanda do mercado...",
+      "niche": "Identificando micronicho lucrativo...",
+      "competition": "Analisando concorrentes...",
+      "risk": "Verificando marcas e propriedade intelectual...",
+      "concept": "Criando conceitos de produtos...",
+      "design": "Gerando design comercial e prompt...",
+      "mockups": "Preparando 11 mockups de venda...",
+      "seo": "Redigindo anúncio para Etsy e tags...",
+      "profit": "Calculando margens de lucro...",
+      "save": "Salvando projeto no espaço de trabalho..."
+    }
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo de volta",
+    "ctaBuild": "Criar Produto",
+    "ctaTrend": "Pesquisar Tendência",
+    "metrics": {
+      "activeProjects": "Projetos Ativos",
+      "productsCreated": "Produtos Criados",
+      "ideasSaved": "Ideias Salvas",
+      "riskChecks": "Varreduras de Risco",
+      "mockupsGenerated": "Mockups Gerados"
+    },
+    "workspaceTitle": "Seu Espaço de Trabalho",
+    "workspaceSubtitle": "Projetos recentes e pacotes de lançamento atualizados.",
+    "allProducts": "Ver Todos os Produtos",
+    "emptyProjects": "Nenhum projeto ainda. Crie seu primeiro produto POD em menos de 2 minutos!",
+    "status": {
+      "research": "Pesquisa",
+      "concept": "Conceito",
+      "design": "Design",
+      "mockups": "Mockups",
+      "listing": "Anúncio",
+      "ready": "Pronto"
+    }
+  },
+  "risk": {
+    "title": "Scanner de Risco de Marcas e Propriedade Intelectual",
+    "subtitle": "Rastreio automatizado para marcas registradas, direitos autorais, nomes de figuras públicas e termos sensíveis.",
+    "disclaimer": "O GiveMePOD fornece triagem analítica automatizada. Não oferece consultoria jurídica nem garante isenção total de reclamações ou regras de marketplaces.",
+    "statusLow": "BAIXO RISCO",
+    "statusMedium": "MÉDIO RISCO",
+    "statusHigh": "ALTO RISCO",
+    "statusReview": "REQUER REVISÃO",
+    "inputPlaceholder": "Digite o slogan, título ou frase para verificar...",
+    "btnScan": "Verificar Risco",
+    "detectedEvidence": "Evidências e correspondências encontradas",
+    "aiInference": "Inferência de IA e risco contextual",
+    "needsReview": "Recomendações para análise humana",
+    "actions": {
+      "researchTm": "Consultar órgão de marcas (ex: INPI/USPTO)",
+      "researchSource": "Verificar fonte original",
+      "modifyConcept": "Ajustar conceito para ângulo seguro",
+      "ignoreContinue": "Ciente e continuar"
+    }
+  },
+  "mockups": {
+    "title": "Fábrica de Mockups (11 Imagens)",
+    "subtitle": "Gere 11 mockups comerciais com arte perfeitamente consistente: 1 foto Hero principal para Etsy + 10 ângulos de estúdio e dia a dia.",
+    "heroLabel": "Mockup Hero Principal Etsy",
+    "heroDesc": "Otimizado para atrair cliques na busca: hierarquia visual clara, produto em destaque e sem poluição visual.",
+    "angles": {
+      "front": "Visão Frontal",
+      "lifestyle": "Cena de Estilo de Vida",
+      "closeup": "Detalhe de Textura",
+      "flatlay": "Foto de Cima (Flat Lay)",
+      "studio": "Estúdio Limpo",
+      "outdoor": "Ambiente Externo",
+      "desk": "Mesa e Home Office",
+      "home": "Decoração de Casa",
+      "gift": "Embalagem de Presente",
+      "model": "Vestido por Modelo",
+      "detail": "Detalhe da Estampa"
+    },
+    "generateAll": "Gerar Todos os 11 Mockups",
+    "generateSingle": "Gerar Ângulo Específico",
+    "downloadAll": "Baixar Todos os Mockups (.ZIP)",
+    "promptOnlyNotice": "Modo de contingência ativo: prompts profissionais para estúdio gerados abaixo."
+  },
+  "seo": {
+    "title": "Gerador de Anúncios e Tags para Etsy",
+    "subtitle": "Textos persuasivos e naturais, sem repetição forçada de termos, focados em conversão.",
+    "seoTitle": "Título Otimizado para Etsy",
+    "tags": "13 Tags para Etsy",
+    "description": "Descrição do Produto",
+    "shortDescription": "Resumo Rápido / Gancho",
+    "materials": "Materiais e Qualidade",
+    "personalization": "Instruções de Personalização",
+    "altText": "Texto Alternativo da Imagem (Alt Text)",
+    "faq": "Perguntas Frequentes dos Compradores",
+    "pricing": "Faixa de Preço Sugerida",
+    "keywordsRationale": "Grupos de Palavras-chave e Justificativa",
+    "copySuccess": "Copiado para a área de transferência!"
+  },
+  "profit": {
+    "title": "Calculadora de Lucro POD",
+    "subtitle": "Calcule margens líquidas considerando fabricação, frete, comissões de marketplace e anúncios.",
+    "sellingPrice": "Preço de Venda",
+    "productCost": "Custo do Produto (Printify / Printful)",
+    "shippingCost": "Frete Cobrado do Cliente",
+    "shippingExpense": "Custo Real do Frete",
+    "marketplaceFee": "Taxa da Plataforma (%)",
+    "paymentProcessing": "Taxa de Processamento de Pagamento",
+    "adSpend": "Custo de Anúncio por Venda",
+    "otherCosts": "Embalagem / Outros",
+    "grossRevenue": "Faturamento Bruto",
+    "totalFees": "Total de Taxas e Frete",
+    "netProfit": "Lucro Líquido Estimado",
+    "profitMargin": "Margem Líquida (%)",
+    "currency": "Moeda",
+    "estimatesDisclaimer": "Todos os valores são estimativas baseadas nas tabelas padrão de taxas de venda."
+  },
+  "pinterest": {
+    "title": "Fábrica de Conteúdo Pinterest",
+    "subtitle": "5 conceitos de Pins testados para alcance orgânico e pastas.",
+    "pinTitle": "Título do Pin",
+    "pinDescription": "Descrição e hashtags",
+    "targetKeywords": "Palavras-chave Alvo",
+    "cta": "Chamada para Ação (CTA)",
+    "board": "Pasta Recomendada",
+    "imageConcept": "Conceito Visual do Pin",
+    "connectNotice": "Conecte sua conta Pinterest para publicar Pins diretamente via OAuth oficial."
+  },
+  "support": {
+    "title": "Precisa de Ajuda?",
+    "subtitle": "Suporte direto com a equipe de desenvolvimento disponível todos os dias.",
+    "whatsapp": "Suporte via WhatsApp",
+    "whatsappNumber": "+212613960504",
+    "telegram": "Suporte via Telegram",
+    "telegramHandle": "@kalo_1",
+    "floatingLabel": "Ajuda?"
+  },
+  "admin": {
+    "title": "Painel de Administração GiveMePOD",
+    "subtitle": "Gerenciamento seguro de acessos criptografados, provedores de IA e controles do sistema.",
+    "tabs": {
+      "overview": "Visão Geral",
+      "users": "Usuários e Licenças",
+      "accessCodes": "Códigos de Acesso",
+      "providers": "Provedores de IA e Mercado",
+      "featureFlags": "Controle de Recursos",
+      "auditLogs": "Registros de Auditoria"
+    },
+    "generateCodes": "Gerar Novos Códigos de Acesso",
+    "importCodes": "Importar Códigos Secretos Privados",
+    "importPlaceholder": "Cole os códigos (um por linha). O texto original é criptografado imediatamente com SHA-256 e descartado.",
+    "btnImport": "Importar e Criptografar Códigos",
+    "maskedDisplay": "Código Mascarado",
+    "assignedUser": "Usuário Vinculado",
+    "status": "Status",
+    "created": "Criado em",
+    "activated": "Ativado em",
+    "actions": "Ações",
+    "revoke": "Revogar",
+    "emergencyLock": "Bloqueio Geral de Emergência",
+    "emergencyLockDesc": "Bloqueia o acesso a todos os usuários em caso de manutenção ou incidente de segurança.",
+    "maintenanceMode": "Modo de Manutenção"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "duplicate": "Duplicar",
+    "archive": "Arquivar",
+    "export": "Exportar",
+    "edit": "Editar",
+    "refresh": "Atualizar",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "score": "Pontuação de Oportunidade",
+    "scoreDisclaimer": "Esta pontuação é um indicador analítico, não uma garantia de vendas.",
+    "demoBadge": "DADOS DE DEMO",
+    "liveBadge": "SINAL EM TEMPO REAL",
+    "aiAnalysis": "Análise gerada por IA",
+    "estimated": "Estimado",
+    "source": "Fonte",
+    "updated": "Atualizado"
+  }
+}

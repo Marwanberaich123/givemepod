@@ -1,0 +1,330 @@
+{
+  "app": {
+    "name": "GiveMePOD",
+    "tagline": "Research. Design. Validate. Mockup. Sell.",
+    "shortDescription": "GiveMePOD is an AI-powered POD command center that helps you discover product opportunities, create designs, analyze market demand, check intellectual-property risk, generate mockups, optimize listings, and prepare products for multiple selling platforms."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "trendHunter": "Trend Hunter",
+    "ideaFinder": "Idea Finder",
+    "designStudio": "Design Studio",
+    "mockupFactory": "Mockup Factory",
+    "riskScanner": "Risk Scanner",
+    "marketAnalyzer": "Market Analyzer",
+    "competitorResearch": "Competitor Research",
+    "etsyListing": "Etsy Listing",
+    "pinterestFactory": "Pinterest Factory",
+    "profitCalculator": "Profit Calculator",
+    "seasonalPlanner": "Seasonal Planner",
+    "aiAdvisor": "AI POD Advisor",
+    "myProducts": "My Products",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "admin": "Admin Console",
+    "getStarted": "Get Started",
+    "howItWorks": "How It Works",
+    "signInWithGoogle": "Sign In with Google",
+    "signOut": "Sign Out",
+    "needHelp": "Need Help?",
+    "searchPlaceholder": "Search projects, niches, keywords... (/)",
+    "commandPalette": "Commands (⌘K)"
+  },
+  "landing": {
+    "heroTitle": "Turn POD Ideas Into Market-Ready Products.",
+    "heroSubtitle": "Research trends, discover niches, analyze risks, create designs, generate mockups, optimize listings, and prepare your POD products — all in one workspace.",
+    "ctaBuild": "Build Your Next POD Product",
+    "ctaExplore": "Explore Command Center",
+    "stats": {
+      "workflows": "11-Step Commercial Workflow",
+      "mockups": "11 Mockups Per Product",
+      "risk": "Automated IP Screen",
+      "languages": "4 Global Languages"
+    },
+    "featuresTitle": "The All-In-One POD Command Center",
+    "featuresSubtitle": "Eliminate 8 separate subscriptions. From market research to 11 commercial listing mockups in minutes.",
+    "sections": {
+      "trendResearch": {
+        "title": "Trend Research",
+        "desc": "Real-time velocity tracking across Etsy, Pinterest, and search signals to identify authentic consumer demand."
+      },
+      "nicheDiscovery": {
+        "title": "Niche Discovery",
+        "desc": "Drill down from broad categories into high-margin micro-niches and find untapped audience gaps."
+      },
+      "aiDesignStudio": {
+        "title": "AI Design Studio",
+        "desc": "Generate high-resolution commercial print artwork or production-grade prompts formatted for direct POD printing."
+      },
+      "riskScanner": {
+        "title": "POD Risk Scanner",
+        "desc": "Automated intellectual property screening against trademarks, copyright, celebrity names, and marketplace policies."
+      },
+      "mockupFactory": {
+        "title": "Mockup Factory",
+        "desc": "Batch-generate 11 consistent e-commerce mockups: 1 hero Etsy photo + 10 lifestyle, studio, and flat lay angles."
+      },
+      "etsyListing": {
+        "title": "Etsy Listing Generator",
+        "desc": "Generate high-converting SEO titles, 13 compliant tags, rich descriptions, materials, and buyer FAQs."
+      },
+      "pinterestFactory": {
+        "title": "Pinterest Content Factory",
+        "desc": "Produce 5 viral Pin concepts with targeted keywords, hooks, call-to-actions, and direct-to-board readiness."
+      },
+      "profitCalculator": {
+        "title": "Profit Calculator",
+        "desc": "Transparent margin math accounting for production cost, shipping, marketplace fees, ads, and currency conversions."
+      },
+      "marketAnalyzer": {
+        "title": "Market Opportunity Analyzer",
+        "desc": "Transparent 0–100 POD Opportunity Score calculated from demand, competition, seasonality, and IP risk."
+      }
+    }
+  },
+  "auth": {
+    "lockedTitle": "GiveMePOD is locked",
+    "lockedMessage": "Your Google account is connected, but permanent access has not been activated yet.",
+    "enterAccessCode": "Enter Access Code",
+    "accessCodePlaceholder": "XXXX-XXXX-XXXX-XXXX",
+    "activateBtn": "Activate Permanent Access",
+    "buyAccessBtn": "Buy Permanent Access",
+    "contactSupportBtn": "Contact Support",
+    "haveCode": "Have an access code from the administrator?",
+    "permanentBadge": "Permanent License",
+    "codeActivatedSuccess": "Permanent access unlocked successfully! Welcome to GiveMePOD.",
+    "codeInvalid": "Invalid or revoked access code. Please check and try again.",
+    "codeAlreadyUsed": "This access code is already linked to another Google account.",
+    "rateLimited": "Too many failed attempts. Please wait 15 minutes or contact support.",
+    "buySectionTitle": "Get Permanent GiveMePOD Access",
+    "buySectionSubtitle": "One-time investment. Lifetime command center access. Connected directly to your Google account.",
+    "buyPoints": [
+      "One-time payment — zero recurring monthly subscription fees",
+      "Permanent entitlement bound to your Google account",
+      "Full access to Trend Hunter, Mockup Factory (11 angles), and Risk Scanner",
+      "Direct WhatsApp and Telegram priority support"
+    ],
+    "buyNow": "Buy Access — $99 Once",
+    "paymentNotConfigured": "Payment integration not configured yet. Contact the administrator.",
+    "connectedAs": "Connected as",
+    "statusActive": "Active Entitlement",
+    "statusLocked": "Locked Account"
+  },
+  "wizard": {
+    "title": "Build a POD Product",
+    "subtitle": "Go from zero to a complete validated product package ready for Etsy, Shopify, and Amazon.",
+    "step1Title": "What product do you want to create?",
+    "step2Title": "How many product concepts do you want?",
+    "step3Title": "What design style do you want?",
+    "step4Title": "Who is this product for?",
+    "step5Title": "Should GiveMePOD research current trends?",
+    "productTypes": {
+      "tshirt": "T-Shirt",
+      "hoodie": "Hoodie",
+      "mug": "Ceramic Mug",
+      "notebook": "Journal / Notebook",
+      "totebag": "Canvas Tote Bag",
+      "poster": "Matte Poster",
+      "phonecase": "Phone Case",
+      "sticker": "Die-Cut Sticker",
+      "sweatshirt": "Crewneck Sweatshirt",
+      "cap": "Embroidered Cap",
+      "all": "All Products"
+    },
+    "customStyle": "Custom Style",
+    "customStylePlaceholder": "e.g., Japandi minimal botanical line art with terracotta tones...",
+    "audienceGender": {
+      "women": "Women",
+      "men": "Men",
+      "unisex": "Unisex"
+    },
+    "audienceAge": "Age Range",
+    "audienceOccupation": "Niche / Occupation / Interest",
+    "audienceOccupationPlaceholder": "e.g. Dog moms, software engineers, nurses, book lovers...",
+    "trendToggle": "Enable Live Market Trend Research",
+    "trendToggleDesc": "Queries available trend providers for real-time demand, velocity, and keyword signals.",
+    "btnNext": "Next Step",
+    "btnBack": "Back",
+    "btnBuild": "BUILD MY POD PRODUCT",
+    "btnResearchOnly": "Research Only",
+    "pipelineRunning": "Executing POD Pipeline...",
+    "stepsProgress": {
+      "research": "Researching market demand...",
+      "niche": "Identifying high-margin micro-niche...",
+      "competition": "Analyzing competitor signals...",
+      "risk": "Scanning IP and trademark safety...",
+      "concept": "Creating product concepts...",
+      "design": "Generating commercial design & prompt...",
+      "mockups": "Preparing 11 listing mockups...",
+      "seo": "Writing optimized Etsy listing & tags...",
+      "profit": "Calculating profit margins...",
+      "save": "Saving product to workspace..."
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "ctaBuild": "Build a POD Product",
+    "ctaTrend": "Research a Trend",
+    "metrics": {
+      "activeProjects": "Active Projects",
+      "productsCreated": "Products Created",
+      "ideasSaved": "Ideas Saved",
+      "riskChecks": "Risk Checks",
+      "mockupsGenerated": "Mockups Generated"
+    },
+    "workspaceTitle": "Your POD Workspace",
+    "workspaceSubtitle": "Recently updated product projects and launch packages.",
+    "allProducts": "View All Products",
+    "emptyProjects": "No projects yet. Build your first POD product in under 2 minutes!",
+    "status": {
+      "research": "Research",
+      "concept": "Concept",
+      "design": "Design",
+      "mockups": "Mockups",
+      "listing": "Listing",
+      "ready": "Ready"
+    }
+  },
+  "risk": {
+    "title": "IP / Trademark / Copyright Risk Scanner",
+    "subtitle": "Automated screening for potential trademarks, brand references, protected slogans, and marketplace compliance.",
+    "disclaimer": "GiveMePOD provides automated screening and market analysis. It does not provide legal advice and cannot guarantee that a product is free from intellectual-property claims or marketplace policy violations.",
+    "statusLow": "LOW RISK",
+    "statusMedium": "MEDIUM RISK",
+    "statusHigh": "HIGH RISK",
+    "statusReview": "NEEDS REVIEW",
+    "inputPlaceholder": "Enter product slogan, title, phrase, or brand idea to screen...",
+    "btnScan": "Scan Risk",
+    "detectedEvidence": "Detected Evidence & Database Matches",
+    "aiInference": "AI Inference & Contextual Risk",
+    "needsReview": "Recommended Human / Legal Review",
+    "actions": {
+      "researchTm": "Research USPTO / Trademark Office",
+      "researchSource": "Check Original Reference",
+      "modifyConcept": "Modify Concept to Safe Angle",
+      "ignoreContinue": "Acknowledge & Continue"
+    }
+  },
+  "mockups": {
+    "title": "Mockup Factory",
+    "subtitle": "Generate 11 consistent commercial mockups for your product listing: 1 Main Etsy Hero photo + 10 contextual angles.",
+    "heroLabel": "Main Etsy Hero Mockup",
+    "heroDesc": "Optimized as the primary search photo: high visual hierarchy, clean product focal point, zero clutter.",
+    "angles": {
+      "front": "Front View",
+      "lifestyle": "Lifestyle Scene",
+      "closeup": "Close-up Texture",
+      "flatlay": "Studio Flat Lay",
+      "studio": "Clean Studio",
+      "outdoor": "Outdoor Natural",
+      "desk": "Desk & Workspace",
+      "home": "Home Interior",
+      "gift": "Gift & Packaging",
+      "model": "On Model",
+      "detail": "Print Detail"
+    },
+    "generateAll": "Generate All 11 Mockups",
+    "generateSingle": "Generate Individual Angle",
+    "downloadAll": "Download All Mockups (.ZIP)",
+    "promptOnlyNotice": "Image generation provider fallback active: Production-ready scene prompts generated below."
+  },
+  "seo": {
+    "title": "Etsy Listing & Tag Generator",
+    "subtitle": "Natural, non-stuffed listing copy crafted for high search intent and conversion.",
+    "seoTitle": "Optimized Etsy Title",
+    "tags": "13 Etsy Tags",
+    "description": "Product Description",
+    "shortDescription": "Short Summary / Hook",
+    "materials": "Materials & Quality",
+    "personalization": "Personalization Instructions",
+    "altText": "Image Alt Text for Accessibility & Google Images",
+    "faq": "Buyer Frequently Asked Questions",
+    "pricing": "Suggested Retail Price Range",
+    "keywordsRationale": "Keyword Groups & Rationale",
+    "copySuccess": "Copied to clipboard!"
+  },
+  "profit": {
+    "title": "POD Profit Calculator",
+    "subtitle": "Calculate real net margins considering manufacturing costs, shipping, Etsy/Shopify fees, and ad spend.",
+    "sellingPrice": "Selling Price",
+    "productCost": "Base Product Cost (Printify / Printful)",
+    "shippingCost": "Customer Shipping Charged",
+    "shippingExpense": "Actual Shipping Expense",
+    "marketplaceFee": "Marketplace Transaction Fee (%)",
+    "paymentProcessing": "Payment Processing (e.g. 3% + $0.25)",
+    "adSpend": "Estimated Ad Spend Per Unit",
+    "otherCosts": "Packaging / Overhead",
+    "grossRevenue": "Gross Revenue",
+    "totalFees": "Estimated Fees & Shipping",
+    "netProfit": "Estimated Net Profit",
+    "profitMargin": "Net Margin (%)",
+    "currency": "Currency",
+    "estimatesDisclaimer": "All figures are estimated guidelines based on standard seller fee schedules."
+  },
+  "pinterest": {
+    "title": "Pinterest Content Factory",
+    "subtitle": "5 conversion-tested Pin concepts formatted for viral organic reach and boards.",
+    "pinTitle": "Pin Title",
+    "pinDescription": "Pin Description & Hashtags",
+    "targetKeywords": "Target Pinterest Keywords",
+    "cta": "Call to Action",
+    "board": "Recommended Board",
+    "imageConcept": "Visual Pin Layout Concept",
+    "connectNotice": "Connect Pinterest to publish Pins directly from GiveMePOD with official OAuth."
+  },
+  "support": {
+    "title": "Need Assistance?",
+    "subtitle": "Direct human developer and platform support is available 7 days a week.",
+    "whatsapp": "WhatsApp Support",
+    "whatsappNumber": "+212613960504",
+    "telegram": "Telegram Support",
+    "telegramHandle": "@kalo_1",
+    "floatingLabel": "Need Help?"
+  },
+  "admin": {
+    "title": "GiveMePOD Admin Console",
+    "subtitle": "Cryptographically secure access management, provider routing, and system controls.",
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users & Licenses",
+      "accessCodes": "Access Codes",
+      "providers": "API & AI Providers",
+      "featureFlags": "Feature Flags",
+      "auditLogs": "Audit Logs"
+    },
+    "generateCodes": "Generate New Access Codes",
+    "importCodes": "Import Private Secret Codes",
+    "importPlaceholder": "Paste codes (one per line). Plaintext is instantly hashed with SHA-256 and discarded.",
+    "btnImport": "Import & Hash Codes",
+    "maskedDisplay": "Masked Code",
+    "assignedUser": "Assigned User",
+    "status": "Status",
+    "created": "Created",
+    "activated": "Activated",
+    "actions": "Actions",
+    "revoke": "Revoke",
+    "emergencyLock": "Emergency Lock",
+    "emergencyLockDesc": "Globally lock application access in case of maintenance or security incident.",
+    "maintenanceMode": "Maintenance Mode"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "duplicate": "Duplicate",
+    "archive": "Archive",
+    "export": "Export",
+    "edit": "Edit",
+    "refresh": "Refresh",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "score": "Opportunity Score",
+    "scoreDisclaimer": "This score is an analytical indicator, not a sales prediction.",
+    "demoBadge": "DEMO DATA",
+    "liveBadge": "LIVE SIGNAL",
+    "aiAnalysis": "AI-generated analysis",
+    "estimated": "Estimated",
+    "source": "Source",
+    "updated": "Updated"
+  }
+}
